@@ -1,0 +1,57 @@
+         21192282 function calls in 14.616 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.448    0.448   14.616   14.616 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\profile_sim.py:19(run_integration)
+   166667    0.377    0.000    4.872    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body_system.py:128(integrate_bodies)
+  1166669    2.717    0.000    4.495    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body.py:91(integrate)
+   166667    0.618    0.000    4.482    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body_system.py:132(log_data)
+   166667    0.514    0.000    3.404    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body_system.py:124(update_joints)
+  1000002    2.368    0.000    2.890    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\joint.py:60(update)
+  1166669    1.533    0.000    2.753    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body.py:148(log_data)
+  1166669    1.328    0.000    1.778    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body.py:77(update_site_coords)
+ 10166687    1.748    0.000    1.748    0.000 {method 'append' of 'list' objects}
+   166667    0.249    0.000    1.253    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body_system.py:120(update_contacts)
+  1000002    0.634    0.000    1.110    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\joint.py:124(log_data)
+   666668    0.865    0.000    1.004    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\contact.py:36(update)
+  1000002    0.522    0.000    0.522    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\joint.py:116(site_distance)
+  1166669    0.249    0.000    0.249    0.000 {built-in method math.cos}
+  1166669    0.200    0.000    0.200    0.000 {built-in method math.sin}
+   166667    0.105    0.000    0.105    0.000 {built-in method numpy.zeros}
+   535823    0.083    0.000    0.083    0.000 {built-in method builtins.abs}
+   156416    0.055    0.000    0.055    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\contact.py:94(nonlin_stiction_model)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+================================================================================
+SORTED BY SELF TIME (tottime):
+================================================================================
+
+         21192282 function calls in 14.616 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  1166669    2.717    0.000    4.495    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body.py:91(integrate)
+  1000002    2.368    0.000    2.890    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\joint.py:60(update)
+ 10166687    1.748    0.000    1.748    0.000 {method 'append' of 'list' objects}
+  1166669    1.533    0.000    2.753    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body.py:148(log_data)
+  1166669    1.328    0.000    1.778    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body.py:77(update_site_coords)
+   666668    0.865    0.000    1.004    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\contact.py:36(update)
+  1000002    0.634    0.000    1.110    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\joint.py:124(log_data)
+   166667    0.618    0.000    4.482    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body_system.py:132(log_data)
+  1000002    0.522    0.000    0.522    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\joint.py:116(site_distance)
+   166667    0.514    0.000    3.404    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body_system.py:124(update_joints)
+        1    0.448    0.448   14.616   14.616 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\profile_sim.py:19(run_integration)
+   166667    0.377    0.000    4.872    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body_system.py:128(integrate_bodies)
+   166667    0.249    0.000    1.253    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\body_system.py:120(update_contacts)
+  1166669    0.249    0.000    0.249    0.000 {built-in method math.cos}
+  1166669    0.200    0.000    0.200    0.000 {built-in method math.sin}
+   166667    0.105    0.000    0.105    0.000 {built-in method numpy.zeros}
+   535823    0.083    0.000    0.083    0.000 {built-in method builtins.abs}
+   156416    0.055    0.000    0.055    0.000 c:\Users\athar\OneDrive\Documents\CMU\Sem-4\Research\neuromuscular_walking_model\neuromuscular_two_legs_walking_new\contact.py:94(nonlin_stiction_model)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
